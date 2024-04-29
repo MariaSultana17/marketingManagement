@@ -27,7 +27,7 @@ namespace csharpcrud
         {
 
         }
-        String con = "Data Source=UDOY\\SQLEXPRESS;Initial Catalog=csharpcrud;Integrated Security=True";
+        String con = "Data Source=Maria\\SQLEXPRESS;Initial Catalog=csharpcrud;Integrated Security=True";
 
 
         private void button2_Click(object sender, EventArgs e)

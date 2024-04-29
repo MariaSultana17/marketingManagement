@@ -29,7 +29,7 @@ namespace csharpcrud
 
         }
 
-        SqlConnection con = new SqlConnection("Data Source=UDOY\\SQLEXPRESS;Initial Catalog=csharpcrud;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Data Source=MARIA\\SQLEXPRESS;Initial Catalog=csharpcrud;Integrated Security=True");
         private void button1_Click(object sender, EventArgs e)
         {
             con.Open();
